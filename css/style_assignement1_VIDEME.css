@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+
+.heading-title {
+    color: black;
+    text-align: center;
+    font-family: gotham;
+    font-weight: bold;
+}
+
+.container {
+    border: none;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+section {
+    border:	1px solid black;
+    background-color: gray;
+    border-radius: 1rem;
+	width: 100%;
+	height: 350px;
+	color: black;
+	position: relative;
+    overflow: auto;
+}
+
+#Romans {
+    border: none;
+    border-radius: 1rem;
+	text-align: center;
+    width: 30%;
+	margin-left: 70%;
+    font-family: montserrat;
+	font-weight: bold;
+	font-size: 125%;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 5px;
+    color: white;
+	background-color: #E6A600;
+}
+
+#Luc {
+    border: none;
+    border-radius: 1rem;
+	text-align: center;
+    width: 30%;
+	margin-left: 70%;
+    font-family: montserrat;
+	font-weight: bold;
+	font-size: 125%;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 5px;
+    color: white;
+	background-color: #006856;
+}
+
+#John {
+    border: none;
+    border-radius: 1rem;
+	text-align: center;
+    width: 30%;
+	margin-left: 70%;
+    font-family: montserrat;
+	font-weight: bold;
+	font-size: 125%;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 5px;
+    color: white;
+	background-color: #9D2631;
+}
+
+p {
+    padding: 15px;
+    margin: 0;
+    color: white;
+    font-family: calibri;
+}
+
+/* Desktop view */
+@media(min-width: 992px) {
+    .box {
+        width: 100%;
+    }
+
+    .verse1 {
+        width: 33.33%;
+        float: left;
+    }
+
+    .verse2 {
+        width: 33.33%;
+        float: left;
+    }
+
+    .verse3 {
+        width: 33.33%;
+        float: left;
+    }
+}
+
+/* Tablet view */
+@media(min-width: 768px) and (max-width: 991px) {
+    .box {
+        width: 100%;
+    }
+
+    .verse1 {
+        width: 50%;
+        float: left;
+    }
+
+    .verse2 {
+        width: 50%;
+        float: left;
+    }
+
+    .verse3 {
+        width: 100%;
+        float: left;
+    }
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+    .box {
+        width: 100%;
+    }
+
+    .verse1 {
+        width: 100%;
+        float: left;
+    }
+
+    .verse2 {
+        width: 100%;
+        float: left;
+    }
+
+    .verse3 {
+        width: 100%;
+        float: left;
+    }
+}
